@@ -1,0 +1,25 @@
+{
+  "name": "timestamp_microservice_api",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice API (FCC challenge)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwins93/timestamp_microservice_api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "timestamp",
+    "service"
+  ],
+  "author": "ashwins93",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwins93/timestamp_microservice_api/issues"
+  },
+  "homepage": "https://github.com/ashwins93/timestamp_microservice_api#readme"
+}
