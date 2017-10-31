@@ -4,7 +4,9 @@
   "description": "Timestamp Microservice API (FCC challenge)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "esinit": "eslint --init",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,14 @@
   "dependencies": {
     "express": "^4.16.1",
     "strftime": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
